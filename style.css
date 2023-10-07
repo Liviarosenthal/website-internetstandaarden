@@ -1,0 +1,189 @@
+
+
+
+*{
+    margin:0; 
+    padding:0;
+    
+}
+
+body { 
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: medium;
+    color: black;
+    font-family: Arial, sans-serif;
+  
+}
+
+header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    opacity: 90%; 
+}
+
+
+a { 
+
+    text-decoration: none;
+    color: white;   
+}
+
+
+
+
+
+.homepagina { 
+
+    background-repeat: no-repeat;
+    background-image: url(../website/tennisfotowebsite.webp);
+    background-size: 100%
+}
+
+.Home { 
+
+    font-size: 6vh;
+    margin-top: 20%;
+    color: white;
+}
+
+
+
+
+h1 { 
+    text-align: center;
+    font-size: 5vh;
+    margin-top: 4%;
+    color: black;
+}
+
+h2 { 
+    
+    line-height: 50px;
+    padding-top: 50px;
+    font-size: 3vh;
+    text-align: justify;
+    color: black;
+}
+
+p { 
+    color: black;
+    width: 60%;
+    padding: 15px;
+}
+
+
+li { 
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 180%;
+    color: white;
+    font-size: 2.1vh;
+    margin-left: 3.3vh;
+    transition: ease-in-out 800ms;
+
+}
+
+li:hover {
+    transform: scale(1.2);  
+}
+
+.pagina{ 
+
+    background-color: rgb(244, 243, 239);
+}
+
+section.midden { 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/* afbeeldingen */
+
+.afbeeldingen { 
+    margin: 0 auto;
+    transition: ease-in-out 1s;
+    width: 45vh; height: auto;
+    
+}
+
+.afbeeldingen:hover { 
+    transform: scale(1.1); 
+    
+}
+
+
+/* geschiedenispagina */
+
+.geschiedenisimg {
+
+  display: flex;
+  justify-content: center;  
+  margin-top: 4vh;
+}
+
+
+
+
+.ATP { 
+    margin-top: 2vh;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+
+
+/* footer */
+
+footer { 
+
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+    opacity: 85%;
+    height: 20vh;
+    width: 100%;
+    color: white;
+    margin-top: 15%;
+}
+
+.footerhome { 
+
+    color: white;
+    margin: 0 auto;
+    margin-top: 3vh;
+}
+
+.link { 
+    
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    transition: ease-in-out 500ms;
+    
+} 
+
+.link:hover { 
+
+    transform: scale(1.2);
+}
+
+.link span {
+
+    background: green;
+    opacity: 90%;
+    padding: 10px;
+    border-radius: 6px; 
+    
+}
+
