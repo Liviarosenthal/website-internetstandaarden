@@ -74,6 +74,7 @@ li {
     color: white;
     font-size: 2.1vh;
     margin-left: 3.3vh;
+    margin-right: 2vh;
     transition: ease-in-out 800ms;
 
 }
